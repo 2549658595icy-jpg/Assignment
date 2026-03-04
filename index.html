@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JADEGATE·玉门_Chinese Beauty Brand Service Platform</title>
+    <!-- 字体预连接 & 简洁重置 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 现代无衬线 + 中式宋体变体 (用于书法感标题) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=ZCOOL+KuaiLe&display=swap"
+        rel="stylesheet">
+    <!-- 链接外部CSS文件 -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- 第一屏：视觉冲击与价值主张 -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+
+        <!-- 品牌Logo/名称 - 置于最上方 -->
+        <div style="position: absolute; top: 40px; left: 48px; z-index: 20; display: flex; align-items: center;">
+            <!-- 玉门图标 - 抽象玉璧 -->
+            <div
+                style="width: 48px; height: 48px; border: 2px solid #C6A15B; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; position: relative;">
+                <div style="width: 24px; height: 24px; border: 1px solid #C6A15B; border-radius: 50%;"></div>
+                <!-- 玉璧上的小装饰 -->
+                <div
+                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 6px; height: 6px; background: #C6A15B; border-radius: 50%;">
+                </div>
+            </div>
+
+            <!-- 文字Logo -->
+            <div>
+                <div style="display: flex; align-items: baseline; gap: 10px;">
+                    <span style="color: white; font-size: 28px; font-weight: 300; letter-spacing: 2px;">JadeGate</span>
+                    <span style="color: #C6A15B; font-size: 20px; font-weight: 300; font-family: serif;">玉门</span>
+                </div>
+                <div
+                    style="width: 60px; height: 1px; background: linear-gradient(90deg, #C6A15B, transparent); margin-top: 5px;">
+                </div>
+            </div>
+        </div>
+
+        <div class="container hero-content">
+            <!-- 主标题 - 融入品牌理念 -->
+            <h1 class="hero-title" style="margin-bottom: 20px;">
+                <span
+                    style="font-size: 24px; color: #C6A15B; display: block; margin-bottom: 10px; font-weight: 300; letter-spacing: 4px;">JADEGATE</span>
+                玉门·东方美韵<br>
+                <span>The Gateway to Oriental Beauty</span>
+            </h1>
+
+            <!-- 品牌诠释 -->
+            <p style="color: #C6A15B80; font-size: 14px; letter-spacing: 2px; margin-bottom: 10px;">———————————</p>
+
+            <p class="hero-desc">Chinese Beauty Brand Service Platform<br>Compliance · Channel · Marketing</p>
+
+            <div class="hero-cta">
+                <a href="#" class="btn-primary">I am the Brand owner</a>
+                <a href="#" class="btn-secondary">I am the Buyer</a>
+            </div>
+        </div>
+
+        <!-- 右侧装饰 - 玉门意象 -->
+        <div style="position: absolute; right: 10%; top: 50%; transform: translateY(-50%); z-index: 10; opacity: 0.6;">
+            <div style="position: relative; width: 200px; height: 300px;">
+                <div
+                    style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border: 2px solid #C6A15B30; border-radius: 100px 100px 0 0;">
+                </div>
+                <div
+                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60px; height: 60px; border: 2px solid #C6A15B40; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 20px; height: 20px; border: 1px solid #C6A15B60; border-radius: 50%;"></div>
+                </div>
+                <div
+                    style="position: absolute; top: 20%; left: 20%; width: 60%; height: 60%; background: radial-gradient(circle, #C6A15B20, transparent); filter: blur(20px);">
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="jade-icon">⌄</div>
+            <span>Enter the Gate</span>
+        </div>
+    </section>
+
+    <!-- 第二屏：核心数据 -->
+    <div class="container">
+        <div class="stats-grid"
+            style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; padding: 80px 0;">
+            <!-- Card 1: 200+ -->
+            <div class="stat-card"
+                style="background: linear-gradient(145deg, #3A1E1E, #2A0F0F); padding: 32px 20px; text-align: center; border-radius: 12px; position: relative; overflow: hidden; border: 1px solid #C6A15B60; box-shadow: 0 10px 20px -5px #00000060;">
+                <div
+                    style="position: absolute; top: 0; left: 0; right: 0; height: 100%; background: radial-gradient(circle at 30% 30%, #C6A15B20, transparent 70%);">
+                </div>
+                <div style="position: relative; z-index: 2;">
+                    <div class="stat-number"
+                        style="font-size: 56px; font-weight: 200; color: #C6A15B; line-height: 1; margin-bottom: 8px;">
+                        200+</div>
+                    <div class="stat-label" style="font-size: 16px; color: #FFE4E1;">Selected Chinese Beauty Brands
+                    </div>
+                    <div class="stat-detail" style="font-size: 12px; color: #C6A15B; margin-top: 16px;">Emerging +
+                        Traditional</div>
+                </div>
+            </div>
+
+            <!-- Card 2: 30+ -->
+            <div class="stat-card"
+                style="background: linear-gradient(145deg, #3A1E1E, #2A0F0F); padding: 32px 20px; text-align: center; border-radius: 12px; position: relative; overflow: hidden; border: 1px solid #C6A15B60; box-shadow: 0 10px 20px -5px #00000060;">
+                <div
+                    style="position: absolute; top: 0; left: 0; right: 0; height: 100%; background: radial-gradient(circle at 70% 70%, #C6A15B20, transparent 70%);">
+                </div>
+                <div style="position: relative; z-index: 2;">
+                    <div class="stat-number"
+                        style="font-size: 56px; font-weight: 200; color: #C6A15B; line-height: 1; margin-bottom: 8px;">
+                        30+</div>
+                    <div class="stat-label" style="font-size: 16px; color: #FFE4E1;">Countries & Regions Covered</div>
+                    <div class="stat-detail" style="font-size: 12px; color: #C6A15B; margin-top: 16px;">Southeast
+                        Asia<br> · Europe<br> · Middle East</div>
+                </div>
+            </div>
+
+            <!-- Card 3: 5000+ -->
+            <div class="stat-card"
+                style="background: linear-gradient(145deg, #3A1E1E, #2A0F0F); padding: 32px 20px; text-align: center; border-radius: 12px; position: relative; overflow: hidden; border: 1px solid #C6A15B60; box-shadow: 0 10px 20px -5px #00000060;">
+                <div
+                    style="position: absolute; top: 0; left: 0; right: 0; height: 100%; background: radial-gradient(circle at 30% 70%, #C6A15B20, transparent 70%);">
+                </div>
+                <div style="position: relative; z-index: 2;">
+                    <div class="stat-number"
+                        style="font-size: 56px; font-weight: 200; color: #C6A15B; line-height: 1; margin-bottom: 8px;">
+                        5000+</div>
+                    <div class="stat-label" style="font-size: 16px; color: #FFE4E1;">Overseas Distribution Channels
+                    </div>
+                    <div class="stat-detail" style="font-size: 12px; color: #C6A15B; margin-top: 16px;">Online
+                        Platforms<br> · Offline Boutiques</div>
+                </div>
+            </div>
+
+            <!-- Card 4: 100% -->
+            <div class="stat-card"
+                style="background: linear-gradient(145deg, #3A1E1E, #2A0F0F); padding: 32px 20px; text-align: center; border-radius: 12px; position: relative; overflow: hidden; border: 1px solid #C6A15B60; box-shadow: 0 10px 20px -5px #00000060;">
+                <div
+                    style="position: absolute; top: 0; left: 0; right: 0; height: 100%; background: radial-gradient(circle at 70% 30%, #C6A15B20, transparent 70%);">
+                </div>
+                <div style="position: relative; z-index: 2;">
+                    <div class="stat-number"
+                        style="font-size: 56px; font-weight: 200; color: #C6A15B; line-height: 1; margin-bottom: 8px;">
+                        100%</div>
+                    <div class="stat-label" style="font-size: 16px; color: #FFE4E1;">Compliance Clearance</div>
+                    <div class="stat-detail" style="font-size: 12px; color: #C6A15B; margin-top: 16px;">FDA Certified
+                        Brands</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 第三屏：品牌长廊 -->
+    <section class="gallery-section container">
+        <span class="section-sub">Oriental Gallery</span>
+        <h2 class="section-title">Selected Brand <span class="section-title-accent">Showcase</span></h2>
+        <div class="scroll-gallery">
+            <div class="gallery-item">
+                <img src="image/花西子logo.png" alt="花西子产品" class="gallery-img">
+                <div class="gallery-meta">
+                    <span class="gallery-brand">Florasis </span>
+                    <div class="gallery-tags"><span class="tag">Loose Powder</span><span class="tag">Lipstick</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image/完美日记logo.jpeg" alt="完美日记产品" class="gallery-img">
+                <div class="gallery-meta">
+                    <span class="gallery-brand">PERFECT DAIRY</span>
+                    <div class="gallery-tags"><span class="tag">Lipstick</span><span class="tag">Southeast Asia</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image/毛戈平logo.png" alt="毛戈平产品" class="gallery-img">
+                <div class="gallery-meta">
+                    <span class="gallery-brand">MAOGEPIN</span>
+                    <div class="gallery-tags"><span class="tag">Liquid Foundation</span><span
+                            class="tag">Concealer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image/卡姿兰logo.png" alt="卡姿兰产品" class="gallery-img">
+                <div class="gallery-meta">
+                    <span class="gallery-brand">CARSLAN</span>
+                    <div class="gallery-tags"><span class="tag">Liquid Foundation</span><span class="tag">Tone-up Cream
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image/薇诺娜logo.png" alt="薇诺娜产品" class="gallery-img">
+                <div class="gallery-meta">
+                    <span class="gallery-brand">WINONA</span>
+                    <div class="gallery-tags"><span class="tag">Sensitive Skin</span><span class="tag">Skin Care</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image/彩棠logo.png" alt="彩棠产品" class="gallery-img">
+                <div class="gallery-meta">
+                    <span class="gallery-brand">TIMAGE</span>
+                    <div class="gallery-tags"><span class="tag">Shading Powder</span></div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image/自然堂logo.png" alt="自然堂产品" class="gallery-img">
+                <div class="gallery-meta">
+                    <span class="gallery-brand">CANDO</span>
+                    <div class="gallery-tags"><span class="tag">Anti-aging</span></div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: right; margin-top: -20px;"><a href="#" style="color:#C6A15B;">Search all →</a></div>
+    </section>
+
+    <!-- 第四屏：海外热销图谱 -->
+    <section class="map-section">
+        <div class="container map-wrapper">
+            <div class="map-info">
+                <span class="section-sub">Tendency</span>
+                <h2 class="section-title" style="font-size: 40px;">What is currently selling well in Southeast Asia?
+                </h2>
+                <p style="color: #859b69; margin: 24px 0;">Based on real-time big data, gain insights into international
+                    beauty trends</p>
+                <div
+                    style="background: #0F1215; border: 1px solid #C6A15B40; border-radius: 8px; padding: 20px; margin-top: 20px;">
+                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+                        <span
+                            style="background: #C6A15B; color: #0A0C0E; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold;">LIVE</span>
+                        <span style="color: #C6A15B; font-size: 14px;">Real-time heat data · updates every minute</span>
+                    </div>
+
+                    <!-- 模拟滚动条 -->
+                    <div style="overflow: hidden; height: 180px; position: relative;">
+                        <div style="animation: scrollUp 8s linear infinite;">
+                            <!-- 条目1 -->
+                            <div
+                                style="display: flex; align-items: center; gap: 15px; padding: 12px; border-bottom: 1px solid #2A2A2A;">
+                                <span
+                                    style="background: #FFD700; color: #0A0C0E; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">1</span>
+                                <span style="font-size: 20px;">🔥</span>
+                                <div style="flex: 1;">
+                                    <span style="color: white;">Long-lasting Setting Spray</span>
+                                    <span style="color: #999; font-size: 12px; margin-left: 10px;">Humid climate</span>
+                                </div>
+                                <span style="color: #4CAF50;">+98%</span>
+                            </div>
+
+                            <!-- 条目2 -->
+                            <div
+                                style="display: flex; align-items: center; gap: 15px; padding: 12px; border-bottom: 1px solid #2A2A2A;">
+                                <span
+                                    style="background: #C0C0C0; color: #0A0C0E; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">2</span>
+                                <span style="font-size: 20px;">✨</span>
+                                <div style="flex: 1;">
+                                    <span style="color: white;">Highlighting Cream</span>
+                                    <span style="color: #999; font-size: 12px; margin-left: 10px;">Local makeup
+                                        preference</span>
+                                </div>
+                                <span style="color: #4CAF50;">+85%</span>
+                            </div>
+
+                            <!-- 条目3 -->
+                            <div
+                                style="display: flex; align-items: center; gap: 15px; padding: 12px; border-bottom: 1px solid #2A2A2A;">
+                                <span
+                                    style="background: #CD7F32; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">3</span>
+                                <span style="font-size: 20px;">☀️</span>
+                                <div style="flex: 1;">
+                                    <span style="color: white;">Sun Stick</span>
+                                    <span style="color: #999; font-size: 12px; margin-left: 10px;">Outdoor
+                                        activities</span>
+                                </div>
+                                <span style="color: #4CAF50;">+72%</span>
+                            </div>
+
+                            <!-- 条目4 -->
+                            <div style="display: flex; align-items: center; gap: 15px; padding: 12px;">
+                                <span
+                                    style="background: #4CAF50; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">↑</span>
+                                <span style="font-size: 20px;">💄</span>
+                                <div style="flex: 1;">
+                                    <span style="color: white;">Tint Lip Stain</span>
+                                    <span style="color: #999; font-size: 12px; margin-left: 10px;">Transfer-proof</span>
+                                </div>
+                                <span style="color: #4CAF50;">+60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map-visual" style="padding: 20px; background: #0F1215;">
+                <!-- 彩色东南亚地图SVG -->
+                <svg viewBox="0 0 700 500" style="width:100%; height:auto;">
+                    <defs>
+                        <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#1A3855;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#0D1F30;stop-opacity:1" />
+                        </linearGradient>
+                        <radialGradient id="glow">
+                            <stop offset="0%" style="stop-color:#F0E68C;stop-opacity:0.3" />
+                            <stop offset="100%" style="stop-color:#F0E68C;stop-opacity:0" />
+                        </radialGradient>
+                    </defs>
+
+                    <rect x="0" y="0" width="700" height="500" fill="url(#oceanGrad)" />
+
+                    <path
+                        d="M100 50 L600 50 M100 150 L600 150 M100 250 L600 250 M100 350 L600 350 M200 20 L200 450 M300 20 L300 450 M400 20 L400 450 M500 20 L500 450 M600 20 L600 450"
+                        stroke="#C6A15B" stroke-width="0.5" stroke-dasharray="5,5" opacity="0.2" />
+
+                    <!-- 中国南部 -->
+                    <polygon points="200,40 380,30 420,80 400,130 300,140 180,100 150,70" fill="#8B5F8C"
+                        stroke="#4A2C4A" stroke-width="2" opacity="0.9" />
+                    <text x="250" y="70" fill="#FFFFFF" font-size="14" font-weight="bold">🇨🇳 China</text>
+                    <text x="250" y="90" fill="#FFE4B5" font-size="10">Beauty product supply chain</text>
+
+                    <!-- 日本 -->
+                    <ellipse cx="580" cy="60" rx="40" ry="30" fill="#FF9BAA" stroke="#B24C63" stroke-width="2"
+                        opacity="0.9" />
+                    <text x="560" y="60" fill="#FFFFFF" font-size="14" font-weight="bold">🇯🇵 Japan</text>
+                    <text x="545" y="80" fill="#FFE4B5" font-size="10">Cosmetic medicine products</text>
+
+                    <!-- 韩国 -->
+                    <ellipse cx="520" cy="100" rx="30" ry="25" fill="#7DBEB8" stroke="#2E635C" stroke-width="2"
+                        opacity="0.9" />
+                    <text x="505" y="100" fill="#FFFFFF" font-size="12">🇰🇷 Korea</text>
+
+                    <!-- 越南 -->
+                    <polygon points="420,100 500,120 490,200 430,220 380,150" fill="#4CAF7C" stroke="#1F5C3A"
+                        stroke-width="2" opacity="0.9" />
+                    <text x="420" y="150" fill="#FFFFFF" font-size="14" font-weight="bold">🇻🇳 Vietnam</text>
+                    <text x="400" y="180" fill="#FFE4B5" font-size="10">Waterproof eyeliner & Lip coloring liquid</text>
+
+                    <!-- 老挝 -->
+                    <polygon points="380,120 420,110 400,170 360,160" fill="#E67E4A" stroke="#A34E2C" stroke-width="2"
+                        opacity="0.9" />
+                    <text x="370" y="130" fill="#FFFFFF" font-size="12">🇱🇦 Laos</text>
+
+                    <!-- 泰国 -->
+                    <polygon points="300,170 380,160 370,250 320,270 270,220" fill="#DAA520" stroke="#8B691F"
+                        stroke-width="2" opacity="0.9" />
+                    <text x="300" y="200" fill="#FFFFFF" font-size="14" font-weight="bold">🇹🇭 Thailand</text>
+                    <text x="280" y="230" fill="#FFE4B5" font-size="10">Waterproof eyebrow pencil & Setting
+                        powder</text>
+
+                    <!-- 柬埔寨 -->
+                    <polygon points="370,170 410,160 400,210 360,200" fill="#C44D4D" stroke="#822B2B" stroke-width="2"
+                        opacity="0.9" />
+                    <text x="370" y="180" fill="#FFFFFF" font-size="12">🇰🇭 Cambodia</text>
+
+                    <!-- 缅甸 -->
+                    <polygon points="240,160 300,150 290,210 250,220 210,180" fill="#9B6B9B" stroke="#5A3E5A"
+                        stroke-width="2" opacity="0.9" />
+                    <text x="230" y="180" fill="#FFFFFF" font-size="12">🇲🇲 Myanmar</text>
+
+                    <!-- 马来西亚 -->
+                    <polygon points="370,250 430,260 420,340 360,350 300,310" fill="#4169E1" stroke="#1E3A8A"
+                        stroke-width="2" opacity="0.9" />
+                    <polygon points="470,270 550,260 540,330 480,340" fill="#4169E1" stroke="#1E3A8A" stroke-width="2"
+                        opacity="0.9" />
+                    <text x="390" y="300" fill="#FFFFFF" font-size="14" font-weight="bold">🇲🇾 Malaysia</text>
+                    <text x="370" y="330" fill="#FFE4B5" font-size="10">Bright White Sunscreen</text>
+
+                    <!-- 新加坡 -->
+                    <circle cx="400" cy="280" r="12" fill="#E63946" stroke="#9D1F2C" stroke-width="2" />
+                    <text x="380" y="270" fill="#FFFFFF" font-size="12">🇸🇬 Singapore</text>
+
+                    <!-- 印度尼西亚 -->
+                    <polygon points="420,340 480,350 470,400 400,420 360,370" fill="#2E8B57" stroke="#1B4D3E"
+                        stroke-width="2" opacity="0.9" />
+                    <polygon points="480,360 540,340 560,380 520,420 470,400" fill="#2E8B57" stroke="#1B4D3E"
+                        stroke-width="2" opacity="0.9" />
+                    <polygon points="520,380 590,360 610,400 570,430 520,410" fill="#2E8B57" stroke="#1B4D3E"
+                        stroke-width="2" opacity="0.9" />
+                    <text x="480" y="390" fill="#FFFFFF" font-size="14" font-weight="bold">🇮🇩 Indonesia</text>
+
+                    <!-- 菲律宾 -->
+                    <ellipse cx="580" cy="200" rx="35" ry="25" fill="#FF7F7F" stroke="#B24C4C" stroke-width="2"
+                        opacity="0.9" />
+                    <ellipse cx="610" cy="230" rx="25" ry="20" fill="#FF7F7F" stroke="#B24C4C" stroke-width="2"
+                        opacity="0.9" />
+                    <text x="570" y="200" fill="#FFFFFF" font-size="14">🇵🇭 Philippines</text>
+
+                    <!-- 文莱 -->
+                    <circle cx="480" cy="270" r="10" fill="#F4D03F" stroke="#B7950B" stroke-width="2" />
+                    <text x="460" y="260" fill="#FFFFFF" font-size="10">🇧🇳 Brunei</text>
+
+                    <!-- 热销标签 -->
+                    <circle cx="440" cy="160" r="15" fill="url(#glow)" />
+                    <circle cx="340" cy="200" r="15" fill="url(#glow)" />
+                    <circle cx="390" cy="300" r="15" fill="url(#glow)" />
+                    <circle cx="570" cy="60" r="15" fill="url(#glow)" />
+
+                    <circle cx="440" cy="160" r="8" fill="#FFD700" stroke="#FFFFFF" stroke-width="2"
+                        class="pulse-dot" />
+                    <text x="455" y="150" fill="#FFFFFF" font-size="12" font-weight="bold"
+                        style="text-shadow: 2px 2px 4px #000000;">+300%</text>
+
+                    <circle cx="340" cy="200" r="8" fill="#FFD700" stroke="#FFFFFF" stroke-width="2"
+                        class="pulse-dot" />
+                    <text x="355" y="190" fill="#FFFFFF" font-size="12" font-weight="bold"
+                        style="text-shadow: 2px 2px 4px #000000;">+300%</text>
+
+                    <circle cx="390" cy="300" r="8" fill="#FFD700" stroke="#FFFFFF" stroke-width="2"
+                        class="pulse-dot" />
+                    <text x="405" y="290" fill="#FFFFFF" font-size="12" font-weight="bold"
+                        style="text-shadow: 2px 2px 4px #000000;">+250%</text>
+
+                    <circle cx="570" cy="60" r="8" fill="#FFD700" stroke="#FFFFFF" stroke-width="2" class="pulse-dot" />
+
+                    <circle cx="520" cy="380" r="8" fill="#FFD700" stroke="#FFFFFF" stroke-width="2"
+                        class="pulse-dot" />
+                    <text x="535" y="370" fill="#FFFFFF" font-size="12" font-weight="bold"
+                        style="text-shadow: 2px 2px 4px #000000;">+200%</text>
+
+                    <circle cx="600" cy="200" r="8" fill="#FFD700" stroke="#FFFFFF" stroke-width="2"
+                        class="pulse-dot" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第五屏：四季服务 -->
+    <section class="compass-section" style="background: #0A0C0E;">
+        <div class="container">
+            <span class="section-sub">SEASONAL CYCLE</span>
+            <h2 class="section-title">One-stop Services<span class="section-title-accent"> · Four Seasons</span></h2>
+
+            <div style="display: flex; gap: 20px; margin-top: 60px; position: relative;">
+                <!-- 春 · Compliance -->
+                <div class="season-card spring-card"
+                    style="flex: 1; text-align: center; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);">
+                    <div
+                        style="background: linear-gradient(145deg, #2A4A3B, #1A3529); padding: 30px 20px; border-radius: 30px 10px 10px 10px; position: relative; transition: all 0.4s;">
+                        <div
+                            style="position: absolute; top: -15px; left: 20px; background: #C6A15B; color: #0A0C0E; padding: 5px 15px; border-radius: 20px; font-size: 12px; font-weight: bold; transition: all 0.3s;">
+                            SPRING · SOW</div>
+                        <div class="season-icon" style="font-size: 48px; margin: 20px 0; transition: all 0.4s;">🌱</div>
+                        <h4 style="color: white; font-size: 24px; margin: 15px 0; transition: all 0.3s;">Compliance</h4>
+                        <p style="color: #BBB; font-size: 14px; transition: all 0.3s;">·Regulatory Consulting<br>
+                            ·Product Registration<br>·FDA/EU Certification</p>
+                    </div>
+                </div>
+
+                <!-- 夏 · Logistics -->
+                <div class="season-card summer-card"
+                    style="flex: 1; text-align: center; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);">
+                    <div
+                        style="background: linear-gradient(145deg, #4A5A2A, #2A3A1A); padding: 30px 20px; border-radius: 10px 30px 10px 10px; position: relative; transition: all 0.4s;">
+                        <div
+                            style="position: absolute; top: -15px; left: 20px; background: #C6A15B; color: #0A0C0E; padding: 5px 15px; border-radius: 20px; font-size: 12px; font-weight: bold; transition: all 0.3s;">
+                            SUMMER · GROW</div>
+                        <div class="season-icon" style="font-size: 48px; margin: 20px 0; transition: all 0.4s;">☀️</div>
+                        <h4 style="color: white; font-size: 24px; margin: 15px 0; transition: all 0.3s;">Global
+                            Logistics</h4>
+                        <p style="color: #BBB; font-size: 14px; transition: all 0.3s;">·Express Delivery<br>·Overseas
+                            Warehousing<br>·Dropshipping</p>
+                    </div>
+                </div>
+
+                <!-- 秋 · Marketing -->
+                <div class="season-card autumn-card"
+                    style="flex: 1; text-align: center; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);">
+                    <div
+                        style="background: linear-gradient(145deg, #5A4A2A, #3A2A1A); padding: 30px 20px; border-radius: 10px 10px 30px 10px; position: relative; transition: all 0.4s;">
+                        <div
+                            style="position: absolute; top: -15px; left: 20px; background: #C6A15B; color: #0A0C0E; padding: 5px 15px; border-radius: 20px; font-size: 12px; font-weight: bold; transition: all 0.3s;">
+                            AUTUMN · HARVEST</div>
+                        <div class="season-icon" style="font-size: 48px; margin: 20px 0; transition: all 0.4s;">🍂</div>
+                        <h4 style="color: white; font-size: 24px; margin: 15px 0; transition: all 0.3s;">Local Marketing
+                        </h4>
+                        <p style="color: #BBB; font-size: 14px; transition: all 0.3s;">·Overseas KOL<br>·TikTok
+                            Operations<br>·Multi-language Copywriting</p>
+                    </div>
+                </div>
+
+                <!-- 冬 · Channels -->
+                <div class="season-card winter-card"
+                    style="flex: 1; text-align: center; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);">
+                    <div
+                        style="background: linear-gradient(145deg, #2A4A5A, #1A2A3A); padding: 30px 20px; border-radius: 10px 10px 10px 30px; position: relative; transition: all 0.4s;">
+                        <div
+                            style="position: absolute; top: -15px; left: 20px; background: #C6A15B; color: #0A0C0E; padding: 5px 15px; border-radius: 20px; font-size: 12px; font-weight: bold; transition: all 0.3s;">
+                            WINTER · PRESERVE</div>
+                        <div class="season-icon" style="font-size: 48px; margin: 20px 0; transition: all 0.4s;">❄️</div>
+                        <h4 style="color: white; font-size: 24px; margin: 15px 0; transition: all 0.3s;">Channel Access
+                        </h4>
+                        <p style="color: #BBB; font-size: 14px; transition: all 0.3s;">·Overseas E-commerce<br> ·Offline
+                            Buyers' Collective Stores</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px; padding: 20px; border-top: 1px dashed #C6A15B40;"></div>
+        </div>
+    </section>
+
+    <!-- 第六屏：成功案例/卷轴 -->
+    <div class="container">
+        <span class="section-sub">Marine Log</span>
+        <h2 class="section-title">Success Story </h2>
+        <div class="cases-grid">
+            <!-- 案例1：完美日记 -->
+            <div class="case-card" style="padding: 0; overflow: hidden;">
+                <img src="image/完美日记出海.png" alt="完美日记出海案例"
+                    style="width: 100%; height: 200px; object-fit: cover; display: block;">
+                <div style="padding: 24px;">
+                    <h3 style="font-size: 28px; font-weight: 300; margin-bottom: 8px;">PERFECT DAIRY</h3>
+                    <p style="margin: 16px 0; color:#BBB;">By leveraging the marketing of local religious festivals,
+                        achieving a single-month sales volume of 10w+.</p>
+                    <div class="case-stamp"
+                        style="position: relative; bottom: auto; right: auto; display: inline-block;">Read the story →
+                    </div>
+                </div>
+            </div>
+
+            <!-- 案例2：薇诺娜 -->
+            <div class="case-card" style="padding: 0; overflow: hidden;">
+                <img src="image/薇诺娜松本清.JPG" alt="薇诺娜出海案例"
+                    style="width: 100%; height: 200px; object-fit: cover; display: block;">
+                <div style="padding: 24px;">
+                    <h3 style="font-size: 28px; font-weight: 300; margin-bottom: 8px;">RINONA</h3>
+                    <p style="margin: 16px 0; color:#BBB;">How to obtain the certification from the Japanese Ministry of
+                        Health and Welfare and enter the business of Matsunobu Kei</p>
+                    <div class="case-stamp"
+                        style="position: relative; bottom: auto; right: auto; display: inline-block;">Read the story →
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 第七屏：品牌特色产品展示 - 带YouTube链接 -->
+    <section style="padding: 80px 0; background: #0A0C0E;">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 50px;">
+                <span class="section-sub">FEATURED PRODUCTS</span>
+                <h2 class="section-title">品牌特色 <span class="section-title-accent">· 东方甄选</span></h2>
+                <p style="color: #999; max-width: 600px; margin: 20px auto;">Every brand has a unique story. <br>Click
+                    the video to watch the brand story.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 25px;">
+                <!-- 品牌1：花西子 -->
+                <div class="brand-card"
+                    style="background: #151A1F; border-radius: 20px; overflow: hidden; border: 1px solid #C6A15B30; transition: all 0.3s ease;"
+                    onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#C6A15B'; this.style.boxShadow='0 20px 30px -10px #C6A15B40'"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#C6A15B30'; this.style.boxShadow='none'">
+                    <div style="padding: 20px 20px 10px 20px; border-bottom: 1px solid #2A2A2A;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <h3 style="color: white; font-size: 22px; margin: 0;">Florasis</h3>
+                            <span style="color: #C6A15B; font-size: 14px;">花西子</span>
+                        </div>
+                        <p style="color: #C6A15B; font-size: 12px; margin: 5px 0 0 0;">Intaglio Engraving Technique</p>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 15px 15px 0 15px;">
+                        <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 1/1; overflow: hidden; border: 1px solid #C6A15B20; transition: all 0.3s; cursor: pointer;"
+                            onmouseover="this.style.borderColor='#C6A15B'; this.style.transform='scale(1.02)'"
+                            onmouseout="this.style.borderColor='#C6A15B20'; this.style.transform='scale(1)'">
+                            <img src="image/花西子1.jpg" alt="Florasis Product 1"
+                                style="width: 100%; height: 100%; object-fit: cover;"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#C6A15B40;font-size:12px;\'>图片1</div>'">
+                        </div>
+                        <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 1/1; overflow: hidden; border: 1px solid #C6A15B20; transition: all 0.3s; cursor: pointer;"
+                            onmouseover="this.style.borderColor='#C6A15B'; this.style.transform='scale(1.02)'"
+                            onmouseout="this.style.borderColor='#C6A15B20'; this.style.transform='scale(1)'">
+                            <img src="image/花西子2.jpg" alt="Florasis Product 2"
+                                style="width: 100%; height: 100%; object-fit: cover;"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#C6A15B40;font-size:12px;\'>图片2</div>'">
+                        </div>
+                    </div>
+
+                    <div style="padding: 15px;">
+                        <a href="https://youtube.com/shorts/wRq2ce2nSQ4?si=FEXHBMfg28AOyLh7" target="_blank"
+                            style="text-decoration: none; display: block;">
+                            <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 16/9; overflow: hidden; border: 1px solid #C6A15B20; position: relative; transition: all 0.3s;"
+                                onmouseover="this.style.borderColor='#C6A15B'; this.querySelector('.play-button').style.transform='translate(-50%, -50%) scale(1.1)'; this.querySelector('.play-button').style.opacity='1'"
+                                onmouseout="this.style.borderColor='#C6A15B20'; this.querySelector('.play-button').style.transform='translate(-50%, -50%) scale(1)'; this.querySelector('.play-button').style.opacity='0.9'">
+                                <img src="image/花西子视频封面.jpg" alt="Video cover"
+                                    style="width: 100%; height: 100%; object-fit: cover;"
+                                    onerror="this.style.display='none'; this.innerHTML+='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#1E2329;color:#C6A15B40;font-size:12px;\'>点击观看视频</div>'">
+                                <div class="play-button"
+                                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 45px; height: 45px; background: #C6A15B; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #0A0C0E; font-size: 18px; opacity: 0.9; transition: all 0.3s; box-shadow: 0 0 20px #C6A15B;">
+                                    ▶
+                                </div>
+                                <div
+                                    style="position: absolute; bottom: 8px; right: 8px; background: #FF0000; color: white; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: bold;">
+                                    YouTube</div>
+                            </div>
+                        </a>
+                        <p style="color: #999; font-size: 12px; margin-top: 8px; text-align: center;">User Experience ·
+                            Click to watch</p>
+                    </div>
+                </div>
+
+                <!-- 品牌2：完美日记 -->
+                <div class="brand-card"
+                    style="background: #151A1F; border-radius: 20px; overflow: hidden; border: 1px solid #C6A15B30; transition: all 0.3s ease;"
+                    onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#C6A15B'; this.style.boxShadow='0 20px 30px -10px #C6A15B40'"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#C6A15B30'; this.style.boxShadow='none'">
+                    <div style="padding: 20px 20px 10px 20px; border-bottom: 1px solid #2A2A2A;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <h3 style="color: white; font-size: 22px; margin: 0;">Perfect Diary</h3>
+                            <span style="color: #C6A15B; font-size: 14px;">完美日记</span>
+                        </div>
+                        <p style="color: #C6A15B; font-size: 12px; margin: 5px 0 0 0;">Highly Cost Effective</p>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 15px 15px 0 15px;">
+                        <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 1/1; overflow: hidden; border: 1px solid #C6A15B20; transition: all 0.3s; cursor: pointer;"
+                            onmouseover="this.style.borderColor='#C6A15B'; this.style.transform='scale(1.02)'"
+                            onmouseout="this.style.borderColor='#C6A15B20'; this.style.transform='scale(1)'">
+                            <img src="image/完美日记1.jpg" alt="Perfect Diary Product 1"
+                                style="width: 100%; height: 100%; object-fit: cover;"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#C6A15B40;font-size:12px;\'>图片1</div>'">
+                        </div>
+                        <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 1/1; overflow: hidden; border: 1px solid #C6A15B20; transition: all 0.3s; cursor: pointer;"
+                            onmouseover="this.style.borderColor='#C6A15B'; this.style.transform='scale(1.02)'"
+                            onmouseout="this.style.borderColor='#C6A15B20'; this.style.transform='scale(1)'">
+                            <img src="image/完美日记2.jpg" alt="Perfect Diary Product 2"
+                                style="width: 100%; height: 100%; object-fit: cover;"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#C6A15B40;font-size:12px;\'>图片2</div>'">
+                        </div>
+                    </div>
+
+                    <div style="padding: 15px;">
+                        <a href="https://youtu.be/Y3P3OyySGVg?si=XOtPuOqtok3hvUIe" target="_blank"
+                            style="text-decoration: none; display: block;">
+                            <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 16/9; overflow: hidden; border: 1px solid #C6A15B20; position: relative; transition: all 0.3s;"
+                                onmouseover="this.style.borderColor='#C6A15B'; this.querySelector('.play-button').style.transform='translate(-50%, -50%) scale(1.1)'; this.querySelector('.play-button').style.opacity='1'"
+                                onmouseout="this.style.borderColor='#C6A15B20'; this.querySelector('.play-button').style.transform='translate(-50%, -50%) scale(1)'; this.querySelector('.play-button').style.opacity='0.9'">
+                                <img src="image/完美日记视频封面.png" alt="Video cover"
+                                    style="width: 100%; height: 100%; object-fit: cover;"
+                                    onerror="this.style.display='none'; this.innerHTML+='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#1E2329;color:#C6A15B40;font-size:12px;\'>点击观看视频</div>'">
+                                <div class="play-button"
+                                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 45px; height: 45px; background: #C6A15B; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #0A0C0E; font-size: 18px; opacity: 0.9; transition: all 0.3s; box-shadow: 0 0 20px #C6A15B;">
+                                    ▶</div>
+                                <div
+                                    style="position: absolute; bottom: 8px; right: 8px; background: #FF0000; color: white; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: bold;">
+                                    YouTube</div>
+                            </div>
+                        </a>
+                        <p style="color: #999; font-size: 12px; margin-top: 8px; text-align: center;">User Experience ·
+                            Click to watch</p>
+                    </div>
+                </div>
+
+                <!-- 品牌3：毛戈平 -->
+                <div class="brand-card"
+                    style="background: #151A1F; border-radius: 20px; overflow: hidden; border: 1px solid #C6A15B30; transition: all 0.3s ease;"
+                    onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#C6A15B'; this.style.boxShadow='0 20px 30px -10px #C6A15B40'"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#C6A15B30'; this.style.boxShadow='none'">
+                    <div style="padding: 20px 20px 10px 20px; border-bottom: 1px solid #2A2A2A;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <h3 style="color: white; font-size: 22px; margin: 0;">Maogeping</h3>
+                            <span style="color: #C6A15B; font-size: 14px;">毛戈平</span>
+                        </div>
+                        <p style="color: #C6A15B; font-size: 12px; margin: 5px 0 0 0;">Nourishing Liquid Foundation
+                        </p>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 15px 15px 0 15px;">
+                        <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 1/1; overflow: hidden; border: 1px solid #C6A15B20; transition: all 0.3s; cursor: pointer;"
+                            onmouseover="this.style.borderColor='#C6A15B'; this.style.transform='scale(1.02)'"
+                            onmouseout="this.style.borderColor='#C6A15B20'; this.style.transform='scale(1)'">
+                            <img src="image/毛戈平1.jpg" alt="Winona Product 1"
+                                style="width: 100%; height: 100%; object-fit: cover;"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#C6A15B40;font-size:12px;\'>图片1</div>'">
+                        </div>
+                        <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 1/1; overflow: hidden; border: 1px solid #C6A15B20; transition: all 0.3s; cursor: pointer;"
+                            onmouseover="this.style.borderColor='#C6A15B'; this.style.transform='scale(1.02)'"
+                            onmouseout="this.style.borderColor='#C6A15B20'; this.style.transform='scale(1)'">
+                            <img src="image/毛戈平2.jpg" alt="Winona Product 2"
+                                style="width: 100%; height: 100%; object-fit: cover;"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#C6A15B40;font-size:12px;\'>图片2</div>'">
+                        </div>
+                    </div>
+
+                    <div style="padding: 15px;">
+                        <a href="https://youtu.be/o7zIQpoJG1c?si=NETvxlbHKZv03d8e" target="_blank"
+                            style="text-decoration: none; display: block;">
+                            <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 16/9; overflow: hidden; border: 1px solid #C6A15B20; position: relative; transition: all 0.3s;"
+                                onmouseover="this.style.borderColor='#C6A15B'; this.querySelector('.play-button').style.transform='translate(-50%, -50%) scale(1.1)'; this.querySelector('.play-button').style.opacity='1'"
+                                onmouseout="this.style.borderColor='#C6A15B20'; this.querySelector('.play-button').style.transform='translate(-50%, -50%) scale(1)'; this.querySelector('.play-button').style.opacity='0.9'">
+                                <img src="image/毛戈平视频封面.png" alt="Video cover"
+                                    style="width: 100%; height: 100%; object-fit: cover;"
+                                    onerror="this.style.display='none'; this.innerHTML+='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#1E2329;color:#C6A15B40;font-size:12px;\'>点击观看视频</div>'">
+                                <div class="play-button"
+                                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 45px; height: 45px; background: #C6A15B; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #0A0C0E; font-size: 18px; opacity: 0.9; transition: all 0.3s; box-shadow: 0 0 20px #C6A15B;">
+                                    ▶</div>
+                                <div
+                                    style="position: absolute; bottom: 8px; right: 8px; background: #FF0000; color: white; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: bold;">
+                                    YouTube</div>
+                            </div>
+                        </a>
+                        <p style="color: #999; font-size: 12px; margin-top: 8px; text-align: center;">User Experience ·
+                            Click to watch</p>
+                    </div>
+                </div>
+
+                <!-- 品牌4：彩棠 -->
+                <div class="brand-card"
+                    style="background: #151A1F; border-radius: 20px; overflow: hidden; border: 1px solid #C6A15B30; transition: all 0.3s ease;"
+                    onmouseover="this.style.transform='translateY(-10px)'; this.style.borderColor='#C6A15B'; this.style.boxShadow='0 20px 30px -10px #C6A15B40'"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='#C6A15B30'; this.style.boxShadow='none'">
+                    <div style="padding: 20px 20px 10px 20px; border-bottom: 1px solid #2A2A2A;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <h3 style="color: white; font-size: 22px; margin: 0;">Timage</h3>
+                            <span style="color: #C6A15B; font-size: 14px;">彩棠</span>
+                        </div>
+                        <p style="color: #C6A15B; font-size: 12px; margin: 5px 0 0 0;">Concealment Expert</p>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 15px 15px 0 15px;">
+                        <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 1/1; overflow: hidden; border: 1px solid #C6A15B20; transition: all 0.3s; cursor: pointer;"
+                            onmouseover="this.style.borderColor='#C6A15B'; this.style.transform='scale(1.02)'"
+                            onmouseout="this.style.borderColor='#C6A15B20'; this.style.transform='scale(1)'">
+                            <img src="image/彩棠1.jpg" alt="Timage Product 1"
+                                style="width: 100%; height: 100%; object-fit: cover;"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#C6A15B40;font-size:12px;\'>图片1</div>'">
+                        </div>
+                        <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 1/1; overflow: hidden; border: 1px solid #C6A15B20; transition: all 0.3s; cursor: pointer;"
+                            onmouseover="this.style.borderColor='#C6A15B'; this.style.transform='scale(1.02)'"
+                            onmouseout="this.style.borderColor='#C6A15B20'; this.style.transform='scale(1)'">
+                            <img src="image/彩棠2.jpg" alt="Timage Product 2"
+                                style="width: 100%; height: 100%; object-fit: cover;"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#C6A15B40;font-size:12px;\'>图片2</div>'">
+                        </div>
+                    </div>
+
+                    <div style="padding: 15px;">
+                        <a href="https://youtu.be/MGu5IZ8cre0?si=ZNVmQiAYj82p6BeP" target="_blank"
+                            style="text-decoration: none; display: block;">
+                            <div style="background: #1E2329; border-radius: 12px; aspect-ratio: 16/9; overflow: hidden; border: 1px solid #C6A15B20; position: relative; transition: all 0.3s;"
+                                onmouseover="this.style.borderColor='#C6A15B'; this.querySelector('.play-button').style.transform='translate(-50%, -50%) scale(1.1)'; this.querySelector('.play-button').style.opacity='1'"
+                                onmouseout="this.style.borderColor='#C6A15B20'; this.querySelector('.play-button').style.transform='translate(-50%, -50%) scale(1)'; this.querySelector('.play-button').style.opacity='0.9'">
+                                <img src="image/彩棠视频封面.png" alt="Video cover"
+                                    style="width: 100%; height: 100%; object-fit: cover;"
+                                    onerror="this.style.display='none'; this.innerHTML+='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#1E2329;color:#C6A15B40;font-size:12px;\'>点击观看视频</div>'">
+                                <div class="play-button"
+                                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 45px; height: 45px; background: #C6A15B; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #0A0C0E; font-size: 18px; opacity: 0.9; transition: all 0.3s; box-shadow: 0 0 20px #C6A15B;">
+                                    ▶</div>
+                                <div
+                                    style="position: absolute; bottom: 8px; right: 8px; background: #FF0000; color: white; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: bold;">
+                                    YouTube</div>
+                            </div>
+                        </a>
+                        <p style="color: #999; font-size: 12px; margin-top: 8px; text-align: center;">User Experience ·
+                            Click to watch</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="#" class="btn-primary"
+                    style="padding: 12px 40px; display: inline-flex; align-items: center; gap: 10px; transition: all 0.3s ease; border: 1.5px solid #C6A15B; color: #C6A15B; border-radius: 40px; text-decoration: none;"
+                    onmouseover="this.style.gap='15px'; this.style.background='#C6A15B'; this.style.color='#0A0C0E'"
+                    onmouseout="this.style.gap='10px'; this.style.background='transparent'; this.style.color='#C6A15B'">
+                    <span>View All Brands</span>
+                    <span>→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第八屏：行业洞察 -->
+    <div class="container" style="margin-top: 80px;">
+        <div class="insight-panel"
+            style="display: flex; gap: 40px; background: #0D1217; padding: 40px; border: 1px solid #2E2A24; border-radius: 20px; transition: all 0.3s ease;">
+            <div class="insight-left" style="flex: 2;">
+                <span class="section-sub" style="display: flex; align-items: center; gap: 8px; margin-bottom: 15px;">
+                    <span style="font-size: 20px;">🇮🇩</span> MARKET INSIGHT
+                </span>
+
+                <h3 style="font-size: 28px; font-weight: 300; margin: 0 0 20px 0; transition: color 0.3s ease; color: #E9E9E9;"
+                    onmouseover="this.style.color='#C6A15B'" onmouseout="this.style.color='#E9E9E9'">
+                    3 Key Opportunities for Chinese Cosmetics in Indonesia (2024)
+                </h3>
+
+                <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+                    <span
+                        style="background: #1A1E24; color: #C6A15B; padding: 6px 14px; border-radius: 30px; font-size: 13px; border: 1px solid #C6A15B30; transition: all 0.2s;"
+                        onmouseover="this.style.background='#C6A15B'; this.style.color='#0A0C0E'; this.style.transform='scale(1.05)'"
+                        onmouseout="this.style.background='#1A1E24'; this.style.color='#C6A15B'; this.style.transform='scale(1)'">
+                        🧕 Muslim-friendly
+                    </span>
+                    <span
+                        style="background: #1A1E24; color: #C6A15B; padding: 6px 14px; border-radius: 30px; font-size: 13px; border: 1px solid #C6A15B30; transition: all 0.2s;"
+                        onmouseover="this.style.background='#C6A15B'; this.style.color='#0A0C0E'; this.style.transform='scale(1.05)'"
+                        onmouseout="this.style.background='#1A1E24'; this.style.color='#C6A15B'; this.style.transform='scale(1)'">
+                        💧 Waterproof
+                    </span>
+                    <span
+                        style="background: #1A1E24; color: #C6A15B; padding: 6px 14px; border-radius: 30px; font-size: 13px; border: 1px solid #C6A15B30; transition: all 0.2s;"
+                        onmouseover="this.style.background='#C6A15B'; this.style.color='#0A0C0E'; this.style.transform='scale(1.05)'"
+                        onmouseout="this.style.background='#1A1E24'; this.style.color='#C6A15B'; this.style.transform='scale(1)'">
+                        📱 Local KOLs
+                    </span>
+                </div>
+
+                <p style="margin: 0 0 25px 0; color:#AAA; line-height: 1.5;">Muslim-friendly makeup, waterproof
+                    formulas, and local KOL networks are driving growth in Southeast Asia's largest beauty market.</p>
+
+                <a href="#" class="btn-primary"
+                    style="padding: 10px 25px; display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s ease;"
+                    onmouseover="this.style.gap='12px'; this.style.background='#C6A15B'; this.style.color='#0A0C0E'"
+                    onmouseout="this.style.gap='8px'; this.style.background='transparent'; this.style.color='#C6A15B'">
+                    <span>Read more</span>
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="insight-right" style="flex: 1; border-left: 1px solid #2E2A24; padding-left: 30px;">
+                <span class="section-sub" style="display: flex; align-items: center; gap: 6px; margin-bottom: 15px;">
+                    <span style="width: 6px; height: 6px; background: #C6A15B; border-radius: 50%;"></span>
+                    FLASH NEWS
+                </span>
+
+                <ul style="list-style: none; padding: 0; margin: 0 0 25px 0;">
+                    <li style="padding: 12px 0; border-bottom: 1px solid #2A2A2A; display: flex; gap: 10px; align-items: center; transition: all 0.2s; cursor: default;"
+                        onmouseover="this.style.paddingLeft='8px'; this.style.background='#1A1E24'; this.style.borderRadius='6px'"
+                        onmouseout="this.style.paddingLeft='0'; this.style.background='transparent'; this.style.borderRadius='0'">
+                        <span style="color: #C6A15B; font-size: 12px;">📱</span>
+                        <span style="color: #BBB; font-size: 14px;">TikTok Shop beauty rules update</span>
+                    </li>
+                    <li style="padding: 12px 0; border-bottom: 1px solid #2A2A2A; display: flex; gap: 10px; align-items: center; transition: all 0.2s; cursor: default;"
+                        onmouseover="this.style.paddingLeft='8px'; this.style.background='#1A1E24'; this.style.borderRadius='6px'"
+                        onmouseout="this.style.paddingLeft='0'; this.style.background='transparent'; this.style.borderRadius='0'">
+                        <span style="color: #C6A15B; font-size: 12px;">🇹🇭</span>
+                        <span style="color: #BBB; font-size: 14px;">Thai top blogger features Chinese brands</span>
+                    </li>
+                    <li style="padding: 12px 0; border-bottom: 1px solid #2A2A2A; display: flex; gap: 10px; align-items: center; transition: all 0.2s; cursor: default;"
+                        onmouseover="this.style.paddingLeft='8px'; this.style.background='#1A1E24'; this.style.borderRadius='6px'"
+                        onmouseout="this.style.paddingLeft='0'; this.style.background='transparent'; this.style.borderRadius='0'">
+                        <span style="color: #C6A15B; font-size: 12px;">🇻🇳</span>
+                        <span style="color: #BBB; font-size: 14px;">Vietnam SPF labeling changes</span>
+                    </li>
+                    <li style="padding: 12px 0; display: flex; gap: 10px; align-items: center; transition: all 0.2s; cursor: default;"
+                        onmouseover="this.style.paddingLeft='8px'; this.style.background='#1A1E24'; this.style.borderRadius='6px'"
+                        onmouseout="this.style.paddingLeft='0'; this.style.background='transparent'; this.style.borderRadius='0'">
+                        <span style="color: #C6A15B; font-size: 12px;">🇯🇵</span>
+                        <span style="color: #BBB; font-size: 14px;">Japan Pharmaceutical Law revised</span>
+                    </li>
+                </ul>
+
+                <div style="margin-top: 40px; background: #1A1E24; padding: 25px; border-radius: 16px; border: 1px solid #C6A15B20; transition: all 0.3s ease;"
+                    onmouseover="this.style.borderColor='#C6A15B'; this.style.boxShadow='0 10px 20px -5px #C6A15B40'"
+                    onmouseout="this.style.borderColor='#C6A15B20'; this.style.boxShadow='none'">
+                    <span class="section-sub" style="display: flex; align-items: center; gap: 8px;">
+                        <span>📧</span> Weekly Newsletter
+                    </span>
+
+                    <div style="display: flex; gap: 10px; margin-top: 20px;">
+                        <input type="email" placeholder="Your email address"
+                            style="flex: 1; background:#0F1215; border: 1px solid #333; padding: 12px 15px; border-radius: 30px; color:#FFF; transition: all 0.3s ease;"
+                            onmouseover="this.style.borderColor='#C6A15B'" onmouseout="this.style.borderColor='#333'"
+                            onfocus="this.style.borderColor='#C6A15B'; this.style.outline='none'">
+
+                        <button
+                            style="background: #C6A15B; color: #0A0C0E; border: none; padding: 12px 25px; border-radius: 30px; font-weight: bold; cursor: pointer; transition: all 0.3s ease;"
+                            onmouseover="this.style.background='#D4AF37'; this.style.transform='scale(1.05)'"
+                            onmouseout="this.style.background='#C6A15B'; this.style.transform='scale(1)'">
+                            Subscribe
+                        </button>
+                    </div>
+
+                    <p style="color: #666; font-size: 12px; margin-top: 15px;">Get weekly insights on SEA beauty market
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部印章 & 合作伙伴 -->
+    <footer class="container footer">
+        <div class="chop-seal">Welcome to join</div>
+        <div class="partner-logos">
+            <span style="color:#6F6F6F;">Shopee</span>
+            <span style="color:#6F6F6F;">Lazada</span>
+            <span style="color:#6F6F6F;">TikTok</span>
+            <span style="color:#6F6F6F;">顺丰国际</span>
+            <span class="placeholder-note">logo占位</span>
+        </div>
+        <div style="color:#5A5A5A; font-size: 14px;"></div>
+    </footer>
+
+    <div
+        style="background:#1C1C1C; padding: 20px; text-align: center; border-top: 2px solid #C6A15B; font-size: 14px; color: #AAA;">
+    </div>
+</body>
+
+</html>
